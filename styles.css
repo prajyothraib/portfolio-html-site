@@ -118,3 +118,48 @@ body {
 .profile-content-wrapper h1 {
   color: lightseagreen;
 }
+.open-source-section {
+  padding: 80px 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.open-source-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.open-source-card {
+  background: white;
+  padding: 25px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.open-source-card:hover {
+  transform: translateY(-10px);
+}
+
+.open-source-card h3 {
+  margin-bottom: 15px;
+}
+
+.open-source-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.open-source-card a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
